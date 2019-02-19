@@ -1,10 +1,10 @@
-var langs = ['en','fr','it'];
+var langs = ['en','fr','de'];
 var langCode = '';
 var langJS = null;
 
 
 var translate = function (jsdata)
-{	
+{
 	$("[tkey]").each (function (index)
 	{
 		var strTr = jsdata [$(this).attr ('tkey')];
@@ -16,10 +16,9 @@ var translate = function (jsdata)
 //langCode = navigator.language.substr (0, 2);
 langCode = 'fr';
 
-if (langCode in langs)
+/*if (langCode in langs)
 	$.getJSON('lang/'+langCode+'.json', translate);
 else
 	$.getJSON('lang/fr.json', translate);
-
-
-
+*/
+$.getJSON('lang/'+langCode+'.json',translate);

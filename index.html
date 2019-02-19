@@ -27,7 +27,7 @@
 
     <!-- script
     ================================================== -->
-    
+
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
 
@@ -56,18 +56,17 @@
             <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
             <div class="header-nav__content">
-                <h3>Navigation</h3>
-                
+                <h3 tkey="nav_title">[nav_title]</h3>
+
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Clients</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home" tkey="nav_menu1">[Home]</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about" tkey="nav_menu2">[About]</a></li>
+                    <li><a class="smoothscroll"  href="#adventages" title="adventages" tkey="nav_menu3">[Adventages]</a></li>
+                    <li><a class="smoothscroll"  href="#plus" title="plus" tkey="nav_menu4">[Plus]</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact" tkey="nav_menu5">[Contact]</a></li>
                 </ul>
-    
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+
+                <p>Points S Switzerland, 2019</p>
             </div> <!-- end header-nav__content -->
 
         </nav>  <!-- end header-nav -->
@@ -94,7 +93,7 @@
                 <h3 tkey="main_title">[MAIN_TITLE]</h3>
 
                 <h1>
-                    <p tkey="example1"></p>
+                    <p tkey="main_title2"></p>
                 </h1>
 
                 <div class="home-content__buttons">
@@ -138,20 +137,20 @@
                 <ul style="font-size: 18px">
                     <li tkey="about_quest1">[question1]</li>
                     <li tkey="about_quest3">[question3]</li>
-                </ul> 
+                </ul>
             </div>
         </div> <!-- end about-desc -->
 
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full">
                 <p tkey="about_text">
-                [text] 
+                [text]
                 </p>
             </div>
         </div> <!-- end about-desc -->
 
         <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-                
+
             <div class="col-block stats__col ">
                 <div class="stats__count">34</div>
                 <h5 tkey="about_stat1">[stat1]</h5>
@@ -166,7 +165,7 @@
             </div>
             <div class="col-block stats__col">
                 <div class="stats__count">17</div>
-                <h5 tkey="about_stat4">[stat4]</h5> 
+                <h5 tkey="about_stat4">[stat4]</h5>
             </div>
         </div> <!-- end about-stats -->
 
@@ -177,7 +176,7 @@
 
     <!-- services
     ================================================== -->
-    <section id='services' class="s-services">
+    <section id='adventages' class="s-services">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
@@ -199,7 +198,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <!--<div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="fas fa-bullhorn"></i>
                 </div>
@@ -208,12 +207,12 @@
                     <p tkey="av_2-2">[desc]
                     </p>
                 </div>
-            </div>
+            </div>-->
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
-                    <i class="fas fa-coins"></i>
-                </div>  
+                    <i class="fas fa-bullhorn"></i>
+                </div>
                 <div class="service-text">
                     <h3 class="h2" tkey="av_3-1">[title]</h3>
                     <p tkey="av_3-2">[desc]
@@ -232,7 +231,7 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <!--<div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="far fa-handshake"></i>
                 </div>
@@ -241,8 +240,8 @@
                     <p tkey="av_5-2">[desc]
                     </p>
                 </div>
-            </div>
-    
+            </div>-->
+
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="fas fa-chart-line"></i></div>
@@ -262,14 +261,14 @@
                 </div>
             </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
+            <!--<div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon"><i class="fas fa-chalkboard-teacher"></i></div>
                 <div class="service-text">
                     <h3 class="h2" tkey="av_8-1">[title]</h3>
                     <p tkey="av_8-2">[desc]
                     </p>
                 </div>
-            </div>
+            </div>-->
 
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon"><i class="fas fa-terminal"></i></div>
@@ -295,9 +294,9 @@
 
     <!-- works
     ================================================== -->
-    <section id='works' class="s-works">
+    <section id='plus' class="s-works">
 
-        <div class="intro-wrap">     
+        <div class="intro-wrap">
             <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
                 <div class="col-full">
                     <h3 class="subhead" tkey="more_title">Plus encore</h3>
@@ -308,7 +307,7 @@
             <div class="row about-desc" data-aos="fade-up">
                 <div class="col-full">
                     <p tkey="more_text">
-                    [text] 
+                    [text]
                     </p>
                 </div>
             </div> <!-- end about-desc -->
@@ -323,7 +322,7 @@
             <div class="row about-desc" data-aos="fade-up">
                 <div class="col-full">
                     <p tkey="more_text2">
-                    [text] 
+                    [text]
                     </p>
                 </div>
             </div> <!-- end about-desc -->
@@ -347,14 +346,14 @@
         </div>
 
         <div class="row contact-content" data-aos="fade-up">
-            
+
             <div class="contact-primary">
 
                 <h3 class="h6" tkey="title2_contact">[Send Us A Message]</h3>
 
                 <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
                     <fieldset>
-    
+
                     <div class="form-field">
                         <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
                     </div>
@@ -378,15 +377,15 @@
                             </div>
                         </div>
                     </div>
-    
+
                     </fieldset>
                 </form>
 
                 <!-- contact-warning -->
                 <div class="message-warning">
                     Something went wrong. Please try again.
-                </div> 
-            
+                </div>
+
                 <!-- contact-success -->
                 <div class="message-success">
                     Your message was sent, thank you!<br>
@@ -436,8 +435,8 @@
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Glint 2017</span> 
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                    <span>© Copyright Glint 2017</span>
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
                 </div>
 
                 <div class="go-top">
@@ -510,7 +509,7 @@
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/lang.js"></script>   
+    <script src="js/lang.js"></script>
 
 </body>
 
