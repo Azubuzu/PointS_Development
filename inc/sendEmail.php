@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = '';
+$siteOwnersEmail = 'master@point-s.ch';
 
 
 if($_POST) {

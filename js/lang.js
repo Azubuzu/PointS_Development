@@ -14,11 +14,16 @@ var translate = function (jsdata)
 
 
 //langCode = navigator.language.substr (0, 2);
-langCode = 'fr';
+//langCode = 'fr';
 
 /*if (langCode in langs)
 	$.getJSON('lang/'+langCode+'.json', translate);
 else
 	$.getJSON('lang/fr.json', translate);
 */
-$.getJSON('lang/'+langCode+'.json',translate);
+//$.getJSON('lang/'+langCode+'.json',translate);
+changeLang('fr');
+
+function changeLang(langName) {
+	$.getJSON('lang/'+langName+'.json',translate);
+}
